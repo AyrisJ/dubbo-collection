@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 public class DubboConsumerDemo {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
-    @DubboReference(version = "1.0.0", url = "dubbo://127.0.0.1:12345")
+    @DubboReference(version = "1.0.0", url = "dubbo://127.0.0.1:12001")
     private DemoService demoService;
 
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class DubboConsumerDemo {
     @Bean
     public ApplicationRunner runner() {
         return args -> {
-            logger.info(demoService.sayHello("mercyblitz"));
+            logger.info(demoService.sayHello("dubbo from yangjie"));
         };
     }
 }
