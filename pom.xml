@@ -8,6 +8,9 @@
     <artifactId>dubbo-collection</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>starter-autoconfig</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

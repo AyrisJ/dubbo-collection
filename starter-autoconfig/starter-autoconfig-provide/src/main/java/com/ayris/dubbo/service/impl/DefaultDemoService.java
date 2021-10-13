@@ -1,6 +1,5 @@
 package com.ayris.dubbo.service.impl;
 
-
 import com.ayris.dubbo.service.DemoService;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.beans.factory.annotation.Value;
