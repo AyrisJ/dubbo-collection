@@ -21,7 +21,7 @@ public class DubboConsumerDemo {
     @Bean
     public ApplicationRunner runner() {
         return args -> {
-            logger.info(demoService.sayHello("dubbo from yangjie"));
+            logger.info(demoService.sayHello("*********dubbo from yangjie"));
         };
     }
 }
