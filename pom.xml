@@ -11,6 +11,8 @@
     <modules>
         <module>starter-autoconfig</module>
         <module>dubbo-samples-basic</module>
+        <module>dubbo-starter-autoconfig</module>
+        <module>dubbo-spi-load</module>
     </modules>
 
     <properties>

@@ -31,6 +31,6 @@
 
     <bean id="demoService" class="com.ayris.dubbo.impl.DemoServiceImpl"/>
 
-    <dubbo:service interface="com.ayris.dubbo.api.DemoService" ref="demoService"/>
+    <dubbo:service interface="com.ayris.dubbo.service.DemoService" ref="demoService"/>
 
 </beans>

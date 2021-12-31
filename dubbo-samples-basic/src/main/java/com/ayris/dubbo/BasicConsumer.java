@@ -19,7 +19,7 @@
 
 package com.ayris.dubbo;
 
-import com.ayris.dubbo.api.DemoService;
+import com.ayris.dubbo.service.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class BasicConsumer {

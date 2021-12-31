@@ -1,6 +1,6 @@
 package com.ayris.dubbo.impl;
 
-import com.ayris.dubbo.api.DemoService;
+import com.ayris.dubbo.service.DemoService;
 import org.apache.dubbo.rpc.RpcContext;
 
 import java.text.SimpleDateFormat;

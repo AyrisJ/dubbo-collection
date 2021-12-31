@@ -17,7 +17,7 @@
 
 package com.ayris.dubbo;
 
-import com.ayris.dubbo.api.DemoService;
+import com.ayris.dubbo.service.DemoService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.ayris.dubbo.api;
+package com.ayris.dubbo.service;
 
 public interface DemoService {
 
