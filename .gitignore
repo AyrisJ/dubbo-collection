@@ -5,3 +5,5 @@
 */.mvn/*
 */mvnw*
 */HELP.md
+
+*/*/target/**/*
