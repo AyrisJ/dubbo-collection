@@ -1,0 +1,3 @@
+car=com.ayris.dubbo.impl.CarTravel
+subway=com.ayris.dubbo.impl.SubwayTravel
+walk=com.ayris.dubbo.impl.WalkTravel
